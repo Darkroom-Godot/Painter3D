@@ -6,6 +6,8 @@ from fire import Fire
 from natsort import natsorted
 from loguru import logger
 
+import sys 
+sys.path.append("/SSD_DISK/users/chenxuetian/Mask3D") 
 from datasets.preprocessing.base_preprocessing import BasePreprocessing
 from utils.point_cloud_utils import load_ply_with_normals
 

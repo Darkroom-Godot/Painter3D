@@ -4,7 +4,7 @@ import numpy as np
 from fire import Fire
 from natsort import natsorted
 from loguru import logger
-from datasets.preprocessing.base_preprocessing import BasePreprocessing
+from base_preprocessing import BasePreprocessing
 
 
 class ScannetPreprocessing(BasePreprocessing):
